@@ -14,10 +14,6 @@ public class HashSetPractice {
         hashSet.add(1);
         hashSet.add(null);
 
-        Iterator iterator = hashSet.iterator();
-        while (iterator.hasNext()) {
-            Object next =  iterator.next();
-            System.out.println(next);
-        }
+
     }
 }
