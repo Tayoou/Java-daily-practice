@@ -16,16 +16,18 @@ public class CollectionExercise {
         dogs.add(new Dog("小黑",3));
 
         // 迭代器实现
-//        Iterator ite = dogs.iterator();
-//        while (ite.hasNext()) {
-//            Object next =  ite.next();
-//            System.out.println("dog =" + next);
-//        }
+        Iterator ite = dogs.iterator();
+        while (ite.hasNext()) {
+            Object next =  ite.next();
+            System.out.println("dog =" + next);
+        }
+
+
 
         //增强for循环实现
-        for (Object dog : dogs) {
-            System.out.println("dog = " + dog);
-        }
+//        for (Object dog : dogs) {
+//            System.out.println("dog = " + dog);
+//        }
 
     }
 }
