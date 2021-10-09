@@ -10,9 +10,9 @@ import java.util.Iterator;
 public class HashSetPractice {
     public static void main(String[] args) {
         HashSet hashSet = new HashSet();
-        hashSet.add(new String("你好"));
-        hashSet.add(1);
-        hashSet.add(null);
+        hashSet.add("java");
+        hashSet.add("php");
+        hashSet.add("java");
 
         Iterator iterator = hashSet.iterator();
         while (iterator.hasNext()) {
